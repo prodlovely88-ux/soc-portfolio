@@ -8,6 +8,13 @@
 
 ---
 
+## CV / Резюме
+
+- [Резюме на русском](cv/Sergey_Mikhailov_Junior_SOC_CV_RU.md)
+- [CV in English](cv/Sergey_Mikhailov_Junior_SOC_CV_EN.md)
+
+---
+
 ## Ключевой фокус
 
 - Windows Security Logs analysis
@@ -201,7 +208,16 @@ Cybersecurity portfolio focused on SOC operations, security event analysis, susp
 
 I am building practical Blue Team skills through log analysis, event triage, investigation workflows, activity chain reconstruction, MITRE ATT&CK mapping, and structured analyst reporting.
 
+
 ---
+
+## CV / Resume
+
+- [Russian CV](cv/Sergey_Mikhailov_Junior_SOC_CV_RU.md)
+- [English CV](cv/Sergey_Mikhailov_Junior_SOC_CV_EN.md)
+
+---
+
 
 ## Core Focus
 
