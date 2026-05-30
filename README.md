@@ -10,9 +10,12 @@
 
 ## CV / Резюме
 
-- [Короткое резюме на русском](cv/Sergey_Mikhailov_Junior_SOC_CV_RU_SHORT.md)
+- [Короткое резюме RU, PDF](cv/export/Sergey_Mikhailov_Junior_SOC_CV_RU_SHORT.pdf)
+- [Короткое резюме RU, DOCX](cv/export/Sergey_Mikhailov_Junior_SOC_CV_RU_SHORT.docx)
+- [Short CV EN, PDF](cv/export/Sergey_Mikhailov_Junior_SOC_CV_EN_SHORT.pdf)
+- [Short CV EN, DOCX](cv/export/Sergey_Mikhailov_Junior_SOC_CV_EN_SHORT.docx)
+
 - [Полное резюме на русском](cv/Sergey_Mikhailov_Junior_SOC_CV_RU.md)
-- [Short CV in English](cv/Sergey_Mikhailov_Junior_SOC_CV_EN_SHORT.md)
 - [Full CV in English](cv/Sergey_Mikhailov_Junior_SOC_CV_EN.md)
 
 ---
@@ -215,10 +218,13 @@ I am building practical Blue Team skills through log analysis, event triage, inv
 
 ## CV / Resume
 
-- [Short CV in English](cv/Sergey_Mikhailov_Junior_SOC_CV_EN_SHORT.md)
+- [Short CV RU, PDF](cv/export/Sergey_Mikhailov_Junior_SOC_CV_RU_SHORT.pdf)
+- [Short CV RU, DOCX](cv/export/Sergey_Mikhailov_Junior_SOC_CV_RU_SHORT.docx)
+- [Short CV EN, PDF](cv/export/Sergey_Mikhailov_Junior_SOC_CV_EN_SHORT.pdf)
+- [Short CV EN, DOCX](cv/export/Sergey_Mikhailov_Junior_SOC_CV_EN_SHORT.docx)
+
+- [Full CV in Rissian](cv/Sergey_Mikhailov_Junior_SOC_CV_RU.md)
 - [Full CV in English](cv/Sergey_Mikhailov_Junior_SOC_CV_EN.md)
-- [Short CV in Russian](cv/Sergey_Mikhailov_Junior_SOC_CV_RU_SHORT.md)
-- [Full CV in Russian](cv/Sergey_Mikhailov_Junior_SOC_CV_RU.md)
 
 ---
 
