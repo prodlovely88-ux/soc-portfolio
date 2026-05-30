@@ -1,252 +1,387 @@
 # Сергей Михайлов
 
-## Портфолио по информационной безопасности
+## Junior SOC Analyst / Security Monitoring
 
-Специализируюсь на анализе событий безопасности, расследовании подозрительной активности и автоматизации задач мониторинга.
+Портфолио по информационной безопасности с фокусом на SOC, анализ событий безопасности, расследование подозрительной активности и автоматизацию задач мониторинга.
 
-Основной фокус:
-
-* Анализ журналов безопасности Windows
-* Расследование инцидентов и triage событий
-* Sysmon и корреляция событий
-* Обнаружение подозрительной активности
-* MITRE ATT&CK
-* Автоматизация задач информационной безопасности с использованием Python
-* Linux и администрирование систем
-* Базовый анализ сетевой активности
+Я развиваюсь в направлении Blue Team и практикую подход, близкий к реальной работе SOC-аналитика: анализ логов, triage событий, построение цепочек активности, проверка гипотез, MITRE ATT&CK mapping и оформление выводов в формате analyst report.
 
 ---
 
-## Практический опыт
+## Ключевой фокус
 
-В рамках обучения и самостоятельной практики регулярно работаю с реальными сценариями расследований и моделированием инцидентов.
-
-Изучены и отработаны на практике:
-
-* Windows Event ID 4624, 4625, 4634, 4688
-* Sysmon Event ID 1, 3, 11
-* Анализ цепочек процессов
-* Расследование подозрительного PowerShell
-* Анализ RDP-активности
-* Выявление признаков закрепления в системе
-* Анализ сетевых подключений процессов
-* Корреляция событий из различных источников
+- Windows Security Logs analysis
+- Sysmon investigation
+- Incident triage
+- Suspicious PowerShell detection
+- RDP activity analysis
+- IOC extraction and enrichment
+- MITRE ATT&CK mapping
+- Python / PowerShell automation
+- Linux-based workflow
+- Security monitoring fundamentals
 
 ---
 
 ## Проекты
 
-### Windows Security Log Triage
+### [Windows Security Log Triage](projects/windows-security-log-triage.md)
 
-Инструмент для анализа событий создания процессов (Event ID 4688) и первичного расследования подозрительной активности.
+PowerShell-инструмент для анализа Windows Security Event ID 4688 и первичного triage подозрительных процессов.
 
-Возможности:
+**Что реализовано:**
 
-* Анализ цепочек Parent → Child Process
-* Выявление подозрительных команд PowerShell
-* Поиск признаков Discovery-активности
-* Формирование отчётов в CSV
-* Ускорение первичного triage
+- анализ событий Process Creation;
+- разбор цепочек Parent Process → Child Process;
+- выявление подозрительных параметров PowerShell;
+- поиск Discovery-команд;
+- suspicious-only фильтрация;
+- CSV-отчёт для дальнейшего анализа.
 
-### IOC Log Enricher
+**Навыки:** Windows Security Logs, Event ID 4688, PowerShell, process analysis, SOC triage.
 
-Инструмент для извлечения индикаторов компрометации из логов и обогащения данных внешними источниками репутации.
+**Репозиторий:**  
+https://github.com/prodlovely88-ux/windows-security-log-triage
 
-Возможности:
+---
 
-* Извлечение публичных IPv4-адресов
-* Контекстный анализ найденных IOC
-* Интеграция с AbuseIPDB
-* Автоматическое формирование отчётов
-* Приоритизация подозрительных индикаторов
+### [IOC Log Enricher](projects/ioc-log-enricher.md)
+
+Python-инструмент для извлечения публичных IP-адресов из логов, контекстного анализа IOC и обогащения данных через AbuseIPDB.
+
+**Что реализовано:**
+
+- извлечение IPv4 из логов;
+- фильтрация private/local/reserved адресов;
+- подсчёт повторений индикаторов;
+- контекстный анализ строк логов;
+- AbuseIPDB enrichment;
+- человекочитаемый console report;
+- экспорт результата в CSV.
+
+**Навыки:** Python, log analysis, IOC triage, threat intelligence, AbuseIPDB API, CSV reporting.
+
+**Репозиторий:**  
+https://github.com/prodlovely88-ux/ioc-log-enricher
 
 ---
 
 ## Кейсы расследований
 
-Портфолио включает практические разборы сценариев:
+Практические case studies оформлены в формате SOC triage / analyst report: severity, verdict, evidence, analysis, MITRE ATT&CK, next checks и recommended actions.
 
-* Подозрительная активность PowerShell
-* Анализ неудачных и успешных попыток входа
-* Исследование RDP-сессий
-* Атаки через Microsoft Office
-* Признаки закрепления в системе
-* Возможное боковое перемещение внутри сети
-* Разграничение легитимной и вредоносной активности
+### [Case 01: Benign Printer Activity](case-studies/case-01-benign-printer-activity.md)
+
+Разбор легитимной сетевой активности, связанной с обращением пользователя к принтеру.
+
+**Что показывает кейс:**
+
+- умение отличать benign activity от подозрительной активности;
+- аккуратный triage без ложной эскалации;
+- понимание контекста сетевых событий.
 
 ---
 
-## Технические навыки
+### [Case 02: RDP and PowerShell Investigation](case-studies/case-02-rdp-powershell-investigation.md)
 
-### Безопасность
+Анализ нескольких failed logins с последующим successful RDP login и запуском PowerShell.
 
-* Windows Security Logs
-* Sysmon
-* Incident Triage
-* Threat Detection
-* MITRE ATT&CK
-* Анализ журналов событий
+**Что показывает кейс:**
 
-### Системы
+- анализ Event ID 4624 / 4625;
+- разбор Logon Type 10;
+- проверка подозрительной RDP-активности;
+- анализ PowerShell с risky flags;
+- разделение suspicious activity и confirmed incident.
 
-* Windows
-* Linux
+---
 
-### Автоматизация
+### [Case 03: Office Malware Incident](case-studies/case-03-office-malware-incident.md)
 
-* Python
-* PowerShell
-* Bash
+Расследование цепочки Microsoft Office → PowerShell → Temp script → external connection → persistence.
 
-### Сети
+**Что показывает кейс:**
 
-* TCP/IP
-* DNS
-* HTTP/HTTPS
-* Основы сетевого анализа
+- анализ suspicious process chain;
+- выявление PowerShell abuse patterns;
+- оценка внешнего подключения;
+- определение persistence indicators;
+- формирование CRITICAL verdict;
+- рекомендации по изоляции и эскалации.
+
+---
+
+## Практические навыки
+
+### Security Monitoring
+
+- первичный triage alert-ов;
+- разделение noise / suspicious / incident;
+- анализ evidence из логов;
+- построение analyst verdict;
+- оформление next checks и recommended actions.
+
+### Windows Security Logs
+
+- Event ID 4624, 4625, 4634, 4688;
+- анализ успешных и неуспешных входов;
+- Logon Type analysis;
+- RDP activity investigation;
+- process creation analysis;
+- correlation by time and Logon ID.
+
+Подробнее: [Windows Security Logs](skills/windows-security-logs.md)
+
+### Sysmon
+
+- Event ID 1: Process Create;
+- Event ID 3: Network Connection;
+- Event ID 11: File Create;
+- ProcessGuid correlation;
+- Process Create → Network Connection → File Create analysis;
+- Office → PowerShell investigation scenarios.
+
+Подробнее: [Sysmon](skills/sysmon.md)
+
+### MITRE ATT&CK
+
+- Execution;
+- Persistence;
+- Discovery;
+- Lateral Movement;
+- Command and Control;
+- Initial Access;
+- confirmed vs possible mapping.
+
+Подробнее: [MITRE ATT&CK](skills/mitre-attck.md)
+
+### Linux / Automation
+
+- Linux terminal workflow;
+- Git;
+- Bash basics;
+- Python scripting;
+- PowerShell scripting;
+- log parsing;
+- CSV reporting;
+- API integration.
+
+Подробнее: [Linux](skills/linux.md)
 
 ---
 
 ## Текущий вектор развития
 
-В настоящее время продолжаю углублённое изучение:
+Сейчас основной фокус направлен на:
 
-* SIEM-систем
-* Detection Engineering
-* Threat Hunting
-* Security Monitoring
-* Incident Response
+- SIEM fundamentals;
+- detection rules;
+- SOC use cases;
+- alert triage;
+- threat hunting basics;
+- incident response workflow;
+- практические расследования;
+- подготовку к Junior SOC / SOC L1 / Security Monitoring позициям.
+
+Подробнее: [Learning Progress](certifications/learning-progress.md)
 
 ---
 
 ## Цель
 
-Получение позиции Junior SOC Analyst / SOC L1 / Security Monitoring Analyst с дальнейшим развитием в направлении Blue Team и мониторинга информационной безопасности.
-
+Получить позицию Junior SOC Analyst / SOC L1 / Security Monitoring Analyst и развиваться в направлении Blue Team, threat detection, incident triage и security operations.
 
 ---
 
 # Sergey Mikhailov
 
-## Cybersecurity Portfolio
+## Junior SOC Analyst / Security Monitoring
 
-I focus on security event analysis, suspicious activity investigation, and automation of security monitoring tasks.
+Cybersecurity portfolio focused on SOC operations, security event analysis, suspicious activity investigation, and security monitoring automation.
 
-Main areas of focus:
-
-- Windows Security Logs analysis
-- Incident triage and investigation
-- Sysmon event correlation
-- Suspicious activity detection
-- MITRE ATT&CK mapping
-- Security automation with Python
-- Linux system administration
-- Basic network activity analysis
+I am building practical Blue Team skills through log analysis, event triage, investigation workflows, activity chain reconstruction, MITRE ATT&CK mapping, and structured analyst reporting.
 
 ---
 
-## Practical Experience
+## Core Focus
 
-As part of my practical training, I work with realistic investigation scenarios and simulated security incidents.
-
-Practiced areas include:
-
-- Windows Event ID 4624, 4625, 4634, 4688
-- Sysmon Event ID 1, 3, 11
-- Parent-child process chain analysis
-- Suspicious PowerShell investigation
+- Windows Security Logs analysis
+- Sysmon investigation
+- Incident triage
+- Suspicious PowerShell detection
 - RDP activity analysis
-- Persistence indicator detection
-- Process network connection analysis
-- Event correlation across multiple sources
+- IOC extraction and enrichment
+- MITRE ATT&CK mapping
+- Python / PowerShell automation
+- Linux-based workflow
+- Security monitoring fundamentals
 
 ---
 
 ## Projects
 
-### Windows Security Log Triage
+### [Windows Security Log Triage](projects/windows-security-log-triage.md)
 
-A PowerShell-based tool for analyzing Windows process creation events, focused on Event ID 4688 and initial triage of suspicious activity.
+PowerShell-based tool for analyzing Windows Security Event ID 4688 and performing initial triage of suspicious process activity.
 
-Capabilities:
+**Implemented features:**
 
-- Parent → Child process chain analysis
-- Suspicious PowerShell command detection
-- Discovery activity identification
-- CSV report generation
-- Initial security triage support
+- Process Creation event analysis;
+- Parent Process → Child Process chain analysis;
+- suspicious PowerShell flag detection;
+- Discovery command identification;
+- suspicious-only filtering;
+- CSV report generation.
 
-### IOC Log Enricher
+**Skills:** Windows Security Logs, Event ID 4688, PowerShell, process analysis, SOC triage.
 
-A Python-based tool for extracting indicators of compromise from logs and enriching them with external reputation data.
+**Repository:**  
+https://github.com/prodlovely88-ux/windows-security-log-triage
 
-Capabilities:
+---
 
-- Public IPv4 address extraction
-- Context-aware IOC analysis
-- AbuseIPDB integration
-- Automated report generation
-- Suspicious indicator prioritization
+### [IOC Log Enricher](projects/ioc-log-enricher.md)
+
+Python-based tool for extracting public IP addresses from logs, performing context-aware IOC triage, and enriching indicators with AbuseIPDB reputation data.
+
+**Implemented features:**
+
+- IPv4 extraction from logs;
+- filtering of private, local, and reserved addresses;
+- indicator frequency counting;
+- log line context analysis;
+- AbuseIPDB enrichment;
+- human-readable console report;
+- CSV export.
+
+**Skills:** Python, log analysis, IOC triage, threat intelligence, AbuseIPDB API, CSV reporting.
+
+**Repository:**  
+https://github.com/prodlovely88-ux/ioc-log-enricher
 
 ---
 
 ## Investigation Case Studies
 
-This portfolio includes practical investigation write-ups covering:
+Practical case studies are written in a SOC triage / analyst report format: severity, verdict, evidence, analysis, MITRE ATT&CK, next checks, and recommended actions.
 
-- Suspicious PowerShell activity
-- Failed and successful login analysis
-- RDP session investigation
-- Microsoft Office attack chains
-- Persistence indicators
-- Possible lateral movement inside a network
-- Benign versus malicious activity classification
+### [Case 01: Benign Printer Activity](case-studies/case-01-benign-printer-activity.md)
+
+Analysis of legitimate network activity related to user access to a printer.
+
+**This case demonstrates:**
+
+- ability to distinguish benign activity from suspicious activity;
+- careful triage without unnecessary escalation;
+- understanding of network event context.
 
 ---
 
-## Technical Skills
+### [Case 02: RDP and PowerShell Investigation](case-studies/case-02-rdp-powershell-investigation.md)
 
-### Security
+Investigation of multiple failed logins followed by a successful RDP login and PowerShell execution.
 
-- Windows Security Logs
-- Sysmon
-- Incident Triage
-- Threat Detection
-- MITRE ATT&CK
-- Event Log Analysis
+**This case demonstrates:**
 
-### Operating Systems
+- Event ID 4624 / 4625 analysis;
+- Logon Type 10 review;
+- suspicious RDP activity investigation;
+- PowerShell activity review with risky flags;
+- separation of suspicious activity from confirmed incident.
 
-- Windows
-- Linux
+---
 
-### Automation
+### [Case 03: Office Malware Incident](case-studies/case-03-office-malware-incident.md)
 
-- Python
-- PowerShell
-- Bash
+Investigation of a Microsoft Office → PowerShell → Temp script → external connection → persistence chain.
 
-### Networking
+**This case demonstrates:**
 
-- TCP/IP
-- DNS
-- HTTP/HTTPS
-- Network Fundamentals
+- suspicious process chain analysis;
+- PowerShell abuse pattern detection;
+- external connection review;
+- persistence indicator identification;
+- CRITICAL verdict reasoning;
+- isolation and escalation recommendations.
+
+---
+
+## Practical Skills
+
+### Security Monitoring
+
+- initial alert triage;
+- noise / suspicious / incident classification;
+- evidence-based log analysis;
+- analyst verdict writing;
+- next checks and recommended actions.
+
+### Windows Security Logs
+
+- Event ID 4624, 4625, 4634, 4688;
+- successful and failed login analysis;
+- Logon Type analysis;
+- RDP activity investigation;
+- process creation analysis;
+- correlation by time and Logon ID.
+
+More: [Windows Security Logs](skills/windows-security-logs.md)
+
+### Sysmon
+
+- Event ID 1: Process Create;
+- Event ID 3: Network Connection;
+- Event ID 11: File Create;
+- ProcessGuid correlation;
+- Process Create → Network Connection → File Create analysis;
+- Office → PowerShell investigation scenarios.
+
+More: [Sysmon](skills/sysmon.md)
+
+### MITRE ATT&CK
+
+- Execution;
+- Persistence;
+- Discovery;
+- Lateral Movement;
+- Command and Control;
+- Initial Access;
+- confirmed vs possible mapping.
+
+More: [MITRE ATT&CK](skills/mitre-attck.md)
+
+### Linux / Automation
+
+- Linux terminal workflow;
+- Git;
+- Bash basics;
+- Python scripting;
+- PowerShell scripting;
+- log parsing;
+- CSV reporting;
+- API integration.
+
+More: [Linux](skills/linux.md)
 
 ---
 
 ## Current Development Focus
 
-Currently expanding practical knowledge in:
+Current focus areas:
 
-- SIEM platforms
-- Detection Engineering
-- Threat Hunting
-- Security Monitoring
-- Incident Response
+- SIEM fundamentals;
+- detection rules;
+- SOC use cases;
+- alert triage;
+- threat hunting basics;
+- incident response workflow;
+- practical investigations;
+- preparation for Junior SOC / SOC L1 / Security Monitoring roles.
+
+More: [Learning Progress](certifications/learning-progress.md)
 
 ---
 
 ## Career Objective
 
-Seeking an entry-level SOC Analyst / SOC L1 / Security Monitoring Analyst position with a focus on Blue Team operations, threat detection, and incident investigation.
+Seeking a Junior SOC Analyst / SOC L1 / Security Monitoring Analyst position with further development in Blue Team operations, threat detection, incident triage, and security operations.
