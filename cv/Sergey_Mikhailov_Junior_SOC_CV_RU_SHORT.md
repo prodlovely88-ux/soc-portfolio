@@ -2,10 +2,13 @@
 
 ## Junior SOC Analyst / SOC L1 / Security Monitoring Analyst
 
-**GitHub:** https://github.com/prodlovely88-ux  
-**SOC Portfolio:** https://github.com/prodlovely88-ux/soc-portfolio  
-**Windows Security Log Triage:** https://github.com/prodlovely88-ux/windows-security-log-triage  
-**IOC Log Enricher:** https://github.com/prodlovely88-ux/ioc-log-enricher  
+**GitHub:** https://github.com/prodlovely88-ux 
+**SOC Portfolio:** https://github.com/prodlovely88-ux/soc-portfolio 
+**Windows Security Log Triage:** https://github.com/prodlovely88-ux/windows-security-log-triage 
+**IOC Log Enricher:** https://github.com/prodlovely88-ux/ioc-log-enricher 
+Email: mihajlov.sergei20017@gmail.com
+Telegram: @L0WBORN
+Локация: Мариуполь / готов к удалённой работе
 
 ---
 

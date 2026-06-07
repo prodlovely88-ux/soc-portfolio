@@ -10,6 +10,7 @@
 - `4625` - Failed Logon
 - `4634` - Logoff
 - `4688` - Process Creation
+- `4698` - Scheduled Task Created
 
 ## Практические навыки
 
@@ -19,6 +20,8 @@
 - Анализ процесса, пользователя и командной строки
 - Корреляция событий по времени и Logon ID
 - Первичный triage подозрительных событий
+- Проверка scheduled task creation как возможного persistence indicator
+- Корреляция логинов, process creation и persistence events
 
 ## Примеры сценариев
 
@@ -41,6 +44,7 @@ I work with core Windows Security Logs used in SOC environments for login analys
 - `4625` - Failed Logon
 - `4634` - Logoff
 - `4688` - Process Creation
+- `4698` - Scheduled Task Created
 
 ## Practical Skills
 
@@ -50,6 +54,8 @@ I work with core Windows Security Logs used in SOC environments for login analys
 - Process, user, and command-line analysis
 - Event correlation by time and Logon ID
 - Initial suspicious event triage
+- Scheduled task creation review as a possible persistence indicator
+- Correlation of logon, process creation, and persistence events
 
 ## Example Scenarios
 

@@ -179,6 +179,38 @@
 - Verdict = итоговая оценка;
 - Actions = что делать дальше.
 
+
+### SIEM Fundamentals / Alert Triage
+
+Практически отработано:
+
+- структура SIEM alert;
+- связь event → alert → incident;
+- detection rule logic;
+- use case thinking;
+- severity assessment;
+- false positive / true positive logic;
+- escalation decision making;
+- analyst ticket writing;
+- разбор suspicious и confirmed incident сценариев.
+
+Практические сценарии:
+
+- multiple failed RDP logins followed by successful login;
+- suspicious PowerShell after Office document;
+- Office → PowerShell → Temp script → external connection → persistence;
+- benign printer activity;
+- suspicious admin-like RDP and PowerShell activity.
+
+Практический фокус:
+
+- не паниковать по одному red flag;
+- собирать цепочку evidence;
+- отделять suspicious activity от confirmed incident;
+- выбирать действия по severity;
+- писать понятный analyst ticket на английском.
+
+
 ---
 
 ## Практические проекты
@@ -385,6 +417,36 @@ Practical focus:
 - Analysis = explanation of why the facts matter;
 - Verdict = final assessment;
 - Actions = what should be done next.
+
+### SIEM Fundamentals / Alert Triage
+
+Practiced areas:
+
+- SIEM alert structure;
+- event → alert → incident workflow;
+- detection rule logic;
+- SOC use case thinking;
+- severity assessment;
+- false positive / true positive logic;
+- escalation decision making;
+- analyst ticket writing;
+- suspicious vs confirmed incident separation.
+
+Practical scenarios:
+
+- multiple failed RDP logins followed by successful login;
+- suspicious PowerShell after Office document;
+- Office → PowerShell → Temp script → external connection → persistence;
+- benign printer activity;
+- suspicious admin-like RDP and PowerShell activity.
+
+Practical focus:
+
+- avoiding overreaction to a single red flag;
+- collecting evidence chains;
+- separating suspicious activity from confirmed incidents;
+- choosing actions based on severity;
+- writing clear analyst tickets in English.
 
 ---
 

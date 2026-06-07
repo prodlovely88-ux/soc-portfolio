@@ -32,6 +32,10 @@
 - Python / PowerShell automation
 - Linux-based workflow
 - Security monitoring fundamentals
+- SIEM alert triage
+- Detection logic and SOC use cases
+- Analyst ticket writing
+- Severity assessment and escalation logic
 
 ---
 
@@ -125,6 +129,17 @@ https://github.com/prodlovely88-ux/ioc-log-enricher
 
 ## Практические навыки
 
+### SIEM / Alert Triage
+
+- разбор SIEM-алертов;
+- понимание логики detection rules;
+- оценка severity;
+- разделение false positive / true positive;
+- принятие решения по эскалации;
+- оформление analyst ticket;
+- расследование по цепочке: alert → evidence → verdict → action.
+
+
 ### Security Monitoring
 
 - первичный triage alert-ов;
@@ -185,11 +200,6 @@ https://github.com/prodlovely88-ux/ioc-log-enricher
 ## Текущий вектор развития
 
 Сейчас основной фокус направлен на:
-
-- SIEM fundamentals;
-- detection rules;
-- SOC use cases;
-- alert triage;
 - threat hunting basics;
 - incident response workflow;
 - практические расследования;
@@ -223,7 +233,7 @@ I am building practical Blue Team skills through log analysis, event triage, inv
 - [Short CV EN, PDF](cv/export/Sergey_Mikhailov_Junior_SOC_CV_EN_SHORT.pdf)
 - [Short CV EN, DOCX](cv/export/Sergey_Mikhailov_Junior_SOC_CV_EN_SHORT.docx)
 
-- [Full CV in Rissian](cv/Sergey_Mikhailov_Junior_SOC_CV_RU.md)
+- [Full CV in Russian](cv/Sergey_Mikhailov_Junior_SOC_CV_RU.md)
 - [Full CV in English](cv/Sergey_Mikhailov_Junior_SOC_CV_EN.md)
 
 ---
@@ -241,7 +251,10 @@ I am building practical Blue Team skills through log analysis, event triage, inv
 - Python / PowerShell automation
 - Linux-based workflow
 - Security monitoring fundamentals
-
+- SIEM alert triage
+- Detection logic and SOC use cases
+- Analyst ticket writing
+- Severity assessment and escalation logic
 ---
 
 ## Projects
@@ -333,6 +346,16 @@ Investigation of a Microsoft Office → PowerShell → Temp script → external 
 ---
 
 ## Practical Skills
+
+### SIEM / Alert Triage
+
+- SIEM alert review;
+- detection rule logic understanding;
+- alert severity assessment;
+- false positive / true positive separation;
+- escalation decision making;
+- analyst ticket writing;
+- investigation workflow: alert → evidence → verdict → action.
 
 ### Security Monitoring
 
