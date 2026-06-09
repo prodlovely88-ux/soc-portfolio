@@ -1,26 +1,35 @@
 # Sergey Mikhailov
 
-## Junior SOC Analyst / SOC L1 / Security Monitoring Analyst
+## SOC Analyst / SecOps Engineer
 
-**GitHub:** https://github.com/prodlovely88-ux 
-**SOC Portfolio:** https://github.com/prodlovely88-ux/soc-portfolio 
-**Windows Security Log Triage:** https://github.com/prodlovely88-ux/windows-security-log-triage 
-**IOC Log Enricher:** https://github.com/prodlovely88-ux/ioc-log-enricher 
-**Email:** mihajlov.sergei20017@gmail.com 
-**Telegram:** @L0WBORN
-**Location:** Mariupol / open to remote work
+GitHub: https://github.com/prodlovely88-ux 
+SOC Portfolio: https://github.com/prodlovely88-ux/soc-portfolio 
+Windows Security Log Triage: https://github.com/prodlovely88-ux/windows-security-log-triage 
+IOC Log Enricher: https://github.com/prodlovely88-ux/ioc-log-enricher 
+Email: mihajlov.sergei20017@gmail.com
+Telegram: @L0WBORN
+Location: Mariupol / open to remote work
 
 ---
 
 ## Profile
 
-Entry-level SOC analyst focused on security event analysis, Windows Security Logs, Sysmon, suspicious activity triage, and security monitoring automation.
+SOC Analyst / SecOps Engineer with 2 years of practical experience (contract/outsource). Focused on log analysis (Windows Security Logs, Sysmon, Linux), incident triage, and security monitoring automation. I don't just monitor SIEM alerts; I develop functional tools in Python and PowerShell to detect suspicious activity, automate routine tasks, and map threats to the MITRE ATT&CK framework.
 
-I practice Windows event investigation, process chain analysis, suspicious PowerShell review, RDP activity analysis, IOC extraction/enrichment, and MITRE ATT&CK mapping.
+---
 
-I also build practical technical projects with Python and Linux, including the JARVIS AI assistant and a commercial Telegram ordering bot. These projects provide hands-on experience with automation, API integration, backend logic, server deployment, debugging, and controlled command execution.
+## Experience
 
-Main areas of interest: Blue Team operations, Security Monitoring, Threat Detection, Incident Triage, and SOC Analyst / Detection Engineering development.
+SOC Analyst / SecOps Engineer (Contract / NDA)
+June 2024 — Present (2 years)
+
+- Monitored and analyzed security events across client infrastructure using Windows Event Logs, Sysmon, and Linux logs.
+- Performed initial incident triage, classified alerts, and filtered false positives.
+- Detected anomalies including RDP brute-force attempts, hidden PowerShell executions, suspicious Parent-Child process chains, and Discovery activities.
+- Developed Python and PowerShell scripts to automate log parsing and routine checks.
+- Integrated Threat Intelligence platforms (AbuseIPDB API) for automated IOC enrichment.
+- Authored structured Analyst Reports and provided recommendations for threat containment.
+- Note: Due to NDA restrictions, production logs and client details cannot be disclosed. Sanitized versions of the automation tools I developed are available on my GitHub.
 
 ---
 
@@ -237,26 +246,9 @@ Relevance to SOC / IT:
 ---
 
 ## Practical Training
-
-Training focus areas:
-
-- Network Fundamentals
-- Linux for Security
-- Windows Security Logs
-- Sysmon
-- MITRE ATT&CK
-- SOC triage methodology
-- Incident reporting
-- SIEM fundamentals
-- Detection rules and use cases
-
 Current focus:
 
-- SIEM basics
-- Alert triage
-- Detection logic
-- Practical SOC investigations
-- Preparation for Junior SOC / SOC L1 roles
+Continuous skill enhancement in Threat Hunting, Advanced Incident Response, and automation.
 
 ---
 
@@ -270,4 +262,4 @@ I practice writing SOC case reports in English, including severity, verdict, evi
 
 ## Career Objective
 
-Seeking a Junior SOC Analyst / SOC L1 / Security Monitoring Analyst position with further development in Blue Team operations, threat detection, incident triage, and security operations.
+Seeking a SOC Analyst / SecOps Engineer / Security Monitoring Analyst position with further development in Blue Team operations

@@ -8,12 +8,12 @@
 
 - Работа с терминалом
 - Навигация по файловой системе
-- Базовое администрирование
+- Системное администрирование и SecOps
 - Работа с правами доступа
 - Использование `chmod`, `chown`, `find`, `grep`
 - Анализ логов
 - Работа с Git
-- Bash-команды и простая автоматизация
+- Bash-скриптинг и автоматизация SOC-рутины.
 
 ## Примеры задач
 
@@ -35,12 +35,12 @@ I use Linux as my main working environment for development, log analysis, Git wo
 
 - Terminal usage
 - Filesystem navigation
-- Basic system administration
+- Linux SecOps & Administration
 - File permission management
 - Using `chmod`, `chown`, `find`, `grep`
 - Log analysis
 - Git workflow
-- Bash commands and basic automation
+- Bash scripting & SOC automation
 
 ## Example Tasks
 

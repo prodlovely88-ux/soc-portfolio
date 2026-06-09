@@ -2,7 +2,7 @@
 
 ## Русская версия
 
-Использую MITRE ATT&CK для базового сопоставления наблюдаемой активности с тактиками и техниками атакующего.
+Использую MITRE ATT&CK для маппинга наблюдаемой активности с тактиками и техниками атакующего.
 
 ## Основной фокус
 
@@ -37,7 +37,7 @@
 
 ## English Version
 
-I use MITRE ATT&CK to map observed activity to attacker tactics and techniques during investigation and reporting.
+I use MITRE ATT&CK to map activity to attacker tactics and techniques during investigation and reporting.
 
 ## Main Focus Areas
 

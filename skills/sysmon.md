@@ -4,7 +4,7 @@
 
 Использую Sysmon для более детального анализа активности процессов, сетевых подключений и создания файлов на Windows-хостах.
 
-## Изученные Event ID
+## Ключевые Event ID в мониторинге
 
 - `Sysmon Event ID 1` - Process Create
 - `Sysmon Event ID 3` - Network Connection
@@ -34,7 +34,7 @@
 
 I use Sysmon for deeper analysis of process activity, network connections, and file creation events on Windows hosts.
 
-## Covered Event IDs
+## Core Event IDs
 
 - `Sysmon Event ID 1` - Process Create
 - `Sysmon Event ID 3` - Network Connection

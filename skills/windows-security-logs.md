@@ -2,9 +2,9 @@
 
 ## Русская версия
 
-Работаю с базовыми событиями Windows Security Logs, которые используются в SOC для анализа входов, активности пользователей и создания процессов.
+Работаю с базовыми событиями Windows Security Logs,  для анализа входов, активности пользователей и создания процессов.
 
-## Изученные Event ID
+## Ключевые Event ID в мониторинге
 
 - `4624` - Successful Logon
 - `4625` - Failed Logon
@@ -36,9 +36,9 @@
 
 ## English Version
 
-I work with core Windows Security Logs used in SOC environments for login analysis, user activity investigation, and process creation monitoring.
+I work with core Windows Security Logs for login analysis, user activity investigation, and process creation monitoring.
 
-## Covered Event IDs
+## Core Event IDs
 
 - `4624` - Successful Logon
 - `4625` - Failed Logon

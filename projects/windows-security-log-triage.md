@@ -3,7 +3,7 @@
 
 ## Описание
 
-Windows Security Log Triage - это учебный SOC-инструмент для анализа событий создания процессов в Windows Security Logs, в первую очередь Event ID 4688.
+Windows Security Log Triage - это утилита, разработанная для автоматизации анализа событий создания процессов в Windows Security Logs, в первую очередь Event ID 4688.
 
 Проект предназначен для первичного triage подозрительной активности, анализа цепочек процессов и выявления типовых признаков злоупотребления PowerShell.
 
@@ -79,7 +79,7 @@ GitHub Repo: https://github.com/prodlovely88-ux/windows-security-log-triage
 Windows Security Log Triage
 Description
 
-Windows Security Log Triage is a practical SOC-focused tool for analyzing Windows process creation events, primarily Windows Security Event ID 4688.
+Windows Security Log Triage is a functional SOC utility developed for analyzing process creation events, primarily Windows Security Event ID 4688.
 
 The project is designed to support initial triage of suspicious activity, process chain analysis, and detection of common PowerShell abuse patterns.
 

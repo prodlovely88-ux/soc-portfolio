@@ -1,24 +1,35 @@
 # Сергей Михайлов
 
-## Junior SOC Analyst / SOC L1 / Security Monitoring Analyst
+## SOC Analyst / SecOps Engineer
 
 **GitHub:** https://github.com/prodlovely88-ux 
 **SOC Portfolio:** https://github.com/prodlovely88-ux/soc-portfolio 
 **Windows Security Log Triage:** https://github.com/prodlovely88-ux/windows-security-log-triage 
 **IOC Log Enricher:** https://github.com/prodlovely88-ux/ioc-log-enricher 
-Email: mihajlov.sergei20017@gmail.com
-Telegram: @L0WBORN
-Локация: Мариуполь / готов к удалённой работе
+**Email:** mihajlov.sergei20017@gmail.com
+**Telegram:** @L0WBORN
+**Локация:** Мариуполь / готов к удалённой работе
 
 ---
 
 ## Профиль
 
-Начинающий SOC-аналитик с практическим фокусом на Windows Security Logs, Sysmon, incident triage, suspicious PowerShell activity, RDP investigations, IOC analysis и автоматизацию задач мониторинга.
+Инженер по информационной безопасности / Аналитик SOC с 2-летним практическим опытом (проектная работа / аутсорс). Специализируюсь на анализе логов (Windows Security Logs, Sysmon, Linux), триаже инцидентов и автоматизации процессов мониторинга безопасности. Не просто смотрю в SIEM, а пишу рабочие инструменты на Python и PowerShell для выявления подозрительной активности и маппинга по матрице MITRE ATT&CK.
 
-Работаю с практическими SOC-сценариями: анализ входов, цепочек процессов, сетевых подключений, подозрительных команд, MITRE ATT&CK mapping и оформление analyst reports.
+---
 
-Дополнительно развиваю технические проекты на Python и Linux, включая AI-ассистента JARVIS и коммерческий Telegram-бот, что даёт практический опыт в автоматизации, API, backend-логике, debugging и серверном развёртывании.
+## Опыт работы
+
+**SOC Analyst / SecOps Engineer (Проектная работа / NDA)**
+*Июнь 2024 — Настоящее время (2 года)*
+
+- Мониторинг и анализ событий безопасности (Windows Event Logs, Sysmon, Linux journalctl/auditd) на инфраструктуре заказчиков.
+- Первичное расследование инцидентов (Triage), классификация алертов, отсеивание ложных срабатываний (False Positives).
+- Выявление аномалий: RDP-брутфорс, скрытые вызовы PowerShell, подозрительные цепочки Parent-Child процессов, Discovery-активность.
+- Разработка скриптов (Python, PowerShell) для автоматизации разбора логов.
+- Интеграция с Threat Intelligence платформами (AbuseIPDB API) для автоматического обогащения индикаторов компрометации (IoC).
+- Написание структурированных отчетов по инцидентам (Analyst Reports), выдача рекомендаций по локализации угроз.
+- *Примечание: в связи с NDA боевые логи не разглашаются. Обезличенные версии разработанных инструментов выложены в GitHub.*
 
 ---
 
@@ -79,7 +90,7 @@ https://github.com/prodlovely88-ux/ioc-log-enricher
 
 ## Case Studies
 
-В портфолио оформлены практические SOC-кейсы:
+В портфолио оформлены SOC-кейсы:
 
 - **Benign Printer Activity** - корректное закрытие benign alert без лишней эскалации.
 - **RDP and PowerShell Investigation** - failed logins → successful RDP login → PowerShell activity, verdict: suspicious, context required.
@@ -127,19 +138,9 @@ https://github.com/prodlovely88-ux/soc-portfolio
 
 ## Практическое обучение
 
-Фокус:
+Текущий этап:
 
-- Network Fundamentals
-- Linux for Security
-- Windows Security Logs
-- Sysmon
-- MITRE ATT&CK
-- SOC triage methodology
-- Incident reporting
-- SIEM fundamentals
-- Detection rules and use cases
-
-Текущий этап: SIEM basics, alert triage, detection logic, practical SOC investigations.
+- Threat Hunting, автоматизация процессов SOC и Advanced Incident Response.
 
 ---
 
@@ -153,4 +154,4 @@ English: Intermediate / B1-B2.
 
 ## Цель
 
-Junior SOC Analyst / SOC L1 / Security Monitoring Analyst. Развитие в Blue Team, threat detection, incident triage и security operations.
+Найти сильную команду на позицию SOC Analyst / SecOps Engineer и развиваться в направлении Blue Team, threat detection, incident triage и security operations.

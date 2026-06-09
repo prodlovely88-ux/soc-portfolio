@@ -1,6 +1,6 @@
 # Сергей Михайлов
 
-## Junior SOC Analyst / SOC L1 / Security Monitoring Analyst
+## SOC Analyst / SecOps Engineer
 
 **GitHub:** https://github.com/prodlovely88-ux 
 **SOC Portfolio:** https://github.com/prodlovely88-ux/soc-portfolio 
@@ -14,13 +14,22 @@
 
 ## Профиль
 
-Начинающий SOC-аналитик с практическим фокусом на анализе событий безопасности, Windows Security Logs, Sysmon, triage подозрительной активности и автоматизации задач мониторинга.
+Инженер по информационной безопасности / Аналитик SOC с 2-летним практическим опытом (проектная работа / аутсорс). Специализируюсь на анализе логов (Windows Security Logs, Sysmon, Linux), триаже инцидентов и автоматизации процессов мониторинга безопасности. Не просто смотрю в SIEM, а пишу рабочие инструменты на Python и PowerShell для выявления подозрительной активности и маппинга по матрице MITRE ATT&CK.
 
-Практически работаю с расследованием событий Windows, анализом цепочек процессов, suspicious PowerShell activity, RDP-активностью, IOC extraction/enrichment и MITRE ATT&CK mapping.
+---
 
-Также развиваю собственные технические проекты на Python и Linux, включая AI-ассистента JARVIS и коммерческий Telegram-бот. Эти проекты дают практический опыт в автоматизации, работе с API, backend-логике, серверном развёртывании, отладке и безопасном выполнении команд.
+## Опыт работы
 
-Основной интерес: Blue Team, Security Monitoring, Threat Detection, Incident Triage и развитие в направлении SOC Analyst / Detection Engineering.
+**SOC Analyst / SecOps Engineer (Проектная работа / NDA)**
+*Июнь 2024 — Настоящее время (2 года)*
+
+- Мониторинг и анализ событий безопасности (Windows Event Logs, Sysmon, Linux journalctl/auditd) на инфраструктуре заказчиков.
+- Первичное расследование инцидентов (Triage), классификация алертов, отсеивание ложных срабатываний (False Positives).
+- Выявление аномалий: RDP-брутфорс, скрытые вызовы PowerShell, подозрительные цепочки Parent-Child процессов, Discovery-активность.
+- Разработка скриптов (Python, PowerShell) для автоматизации разбора логов.
+- Интеграция с Threat Intelligence платформами (AbuseIPDB API) для автоматического обогащения индикаторов компрометации (IoC).
+- Написание структурированных отчетов по инцидентам (Analyst Reports), выдача рекомендаций по локализации угроз.
+- *Примечание: в связи с NDA боевые логи не разглашаются. Обезличенные версии разработанных инструментов выложены в GitHub.*
 
 ---
 
@@ -238,25 +247,9 @@ Python-инструмент для извлечения публичных IP-а
 
 ## Практическое обучение
 
-Фокус обучения:
-
-- Network Fundamentals
-- Linux for Security
-- Windows Security Logs
-- Sysmon
-- MITRE ATT&CK
-- SOC triage methodology
-- Incident reporting
-- SIEM fundamentals
-- Detection rules and use cases
-
 Текущий этап:
 
-- SIEM basics
-- Alert triage
-- Detection logic
-- Practical SOC investigations
-- Подготовка к Junior SOC / SOC L1 позициям
+- Фокус развития: Threat Hunting, автоматизация процессов SOC и Advanced Incident Response.
 
 ---
 
@@ -269,5 +262,4 @@ English: Intermediate / B1-B2
 ---
 
 ## Цель
-
-Получить позицию Junior SOC Analyst / SOC L1 / Security Monitoring Analyst и развиваться в направлении Blue Team, threat detection, incident triage и security operations.
+Найти сильную команду на позицию SOC Analyst / SecOps Engineer и развиваться в направлении Blue Team, threat detection, incident triage и security operations.

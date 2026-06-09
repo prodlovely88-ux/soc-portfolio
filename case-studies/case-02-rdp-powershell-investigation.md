@@ -40,8 +40,6 @@ MEDIUM
 
 ### Analysis
 
-Сама по себе RDP-сессия не является инцидентом. Однако комбинация факторов делает событие подозрительным:
-
 - несколько неудачных попыток входа перед успешным входом;
 - успешный вход по RDP ночью;
 - запуск PowerShell после входа;
@@ -67,8 +65,6 @@ Possible mapping:
 - T1059.001 - Command and Scripting Interpreter: PowerShell
 - T1087 - Account Discovery
 - T1082 - System Information Discovery
-
-MITRE mapping указан как possible, так как активность требует подтверждения контекста.
 
 ### Next Checks
 

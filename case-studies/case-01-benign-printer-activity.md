@@ -33,9 +33,7 @@ Benign activity / легитимная пользовательская акти
 
 ### Analysis
 
-Событие не содержит признаков атаки. Активность соответствует обычному пользовательскому поведению: обращение к сетевому принтеру и последующая печать.
-
-Важный момент для SOC-аналитика: не каждое сетевое соединение является инцидентом. Для корректного triage необходимо учитывать контекст, тип устройства, пользователя, направление соединения и наличие дополнительных подозрительных признаков.
+Событие не содержит признаков атаки.
 
 В данном случае отсутствуют ключевые red flags:
 
@@ -100,9 +98,7 @@ No signs of malicious activity, persistence, suspicious command execution, or la
 
 ### Analysis
 
-The event does not contain signs of an attack. The activity is consistent with normal user behavior involving access to a network printer.
-
-A key SOC triage point: not every network connection is an incident. Proper analysis requires context, including device type, user behavior, connection direction, and additional suspicious indicators.
+The event does not contain signs of an attack.
 
 In this case, no major red flags were observed:
 
