@@ -1,4 +1,4 @@
-# Case 01: Benign Printer Activity
+# Case 01: 
 
 ## Русская версия
 
@@ -63,7 +63,7 @@ LOW / Benign.
 
 ---
 
-# Case 01: Benign Printer Activity
+# Case 01: 
 
 ## English Version
 
